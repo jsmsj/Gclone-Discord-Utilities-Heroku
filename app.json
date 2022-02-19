@@ -1,0 +1,36 @@
+{
+	"name": "Gclone-Discord-Utilites-Bot",
+	"description": "A Pycord Google Drive Utilities bot based on GClone, an RClone mod that allows multiple Google Service Account configuration.",
+	"repository": "https://github.com/jsmsj/Gclone-Discord-Utilities-Heroku",
+	"website": "https://github.com/jsmsj/Gclone-Discord-Utilities-Heroku",
+	"env": {
+		"TOKEN": {
+			"required": true,
+			"value": "Discord bot token goes here. Replace this text with token."
+		},
+		"PREFIX": {
+			"required": true,
+			"value": "Prefix goes here. Replace this text with prefix of your bot."
+		},
+        "USERIDS": {
+            "required": true,
+            "value": "type none , if you want everyone to use the bot. To add more than one id, separate them by commas eg: 154689575621458647,455897514821561646,817817448878584848"
+        },
+        "ADMINS": {
+            "required": true,
+            "value": "enter user ids of admins here, these are the people who can add people or remove people from 'USERIDS' i.e. decide who can run the bot and who can not. MUST NOT REMAIN EMPTY. To add more than one id, separate them by commas eg: 154689575621458647,455897514821561646,817817448878584848"
+        },
+        "DESTINATION_ID": {
+            "required": true,
+            "value": "This is the default destination id for bot to clone to. You can add a folder link here as well."
+        }
+	},
+    "buildpacks": [
+        {
+          "url": "https://github.com/The-Antrax/heroku-buildpack-rclone-mod.git"
+        },
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
