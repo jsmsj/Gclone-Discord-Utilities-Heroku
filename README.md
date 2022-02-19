@@ -19,7 +19,7 @@
 <!-- Download the latest release of [gclone](https://github.com/donwa/gclone/releases/) and add the **gclone** file to the location, where you extracted .zip folder in step 1.-->
 2. Add service accounts (100 json files) to the [accounts folder](accounts/).
 3. Create a new private repository, and upload all the files present in the folder created in step 1
-4. Click the deploy to heroku button, and follow the steps, shown there.
+4. Click the deploy to heroku button in your private repository, and follow the steps, shown there.
 
 ---
 
