@@ -130,7 +130,7 @@ async def clone(ctx,source=None,name=None, destination=secrets.DEFAULT_DESTINATI
     butt3 = Button(
         label="Gclone Command",
         style=discord.ButtonStyle.grey,
-        emoji="🔗"
+        emoji="💅"
     )
 
 
@@ -167,7 +167,8 @@ async def clone(ctx,source=None,name=None, destination=secrets.DEFAULT_DESTINATI
             butt1.disabled=True
             butt1.style = discord.ButtonStyle.success
             await interaction.response.edit_message(content=f"{ctx.author.mention}",embed=em,view=view)
-            await interaction.followup.send(f'gclone copy GC:"{d1}/{name}" "C:\\Users\\USERNAME\\Desktop\\{name} --progress"',ephemeral=True)
+            des = d1.replace('"','')
+            await interaction.followup.send(f'```py\ngclone copy GC:"{des}/{name}" "C:\\Users\\USERNAME\\Desktop\\{name}" --progress\n```',ephemeral=True)
     
     butt1.callback = butt1call
     butt2.callback = butt2call
