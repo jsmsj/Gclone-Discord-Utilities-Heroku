@@ -164,8 +164,8 @@ async def clone(ctx,source=None,name=None, destination=secrets.DEFAULT_DESTINATI
         if interaction.user != ctx.author:
             await interaction.response.send_message("This button is not for you",ephemeral=True)
         else:
-            butt1.disabled=True
-            butt1.style = discord.ButtonStyle.success
+            butt3.disabled=True
+            butt3.style = discord.ButtonStyle.success
             await interaction.response.edit_message(content=f"{ctx.author.mention}",embed=em,view=view)
             des = d1.replace('"','')
             await interaction.followup.send(f'```py\ngclone copy GC:"{des}" "C:\\Users\\USERNAME\\Desktop\\{name}" --progress\n```',ephemeral=True)
