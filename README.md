@@ -1,4 +1,6 @@
 # Gclone Discord Utilities
+># This is for heroku build only !!! For self hosting on PC, see [this](https://github.com/jsmsj/Gclone-Discord-Utilities)
+----
 ## Features
 1. **Clone**  - Clone a public/private google drive file/folder to your teamdrive.
 2. **Mkdir**  - Make Directories directly from discord.
