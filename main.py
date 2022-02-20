@@ -548,9 +548,16 @@ async def supero(ctx,cmd=None):
     if stdout:
         final += f'```ml\n[stdout]\n{stdout.decode()}\n```'
     if stderr:
-        final += f'```ml\n[stderr]\n{stderr.decode()}\n'
+        final += f'```ml\n[stderr]\n{stderr.decode()}\n```'
     
     await ctx.send(final[-1989::])
 
 bot.load_extension('help')
 bot.run(secrets.TOKEN)
+
+
+
+# mkdir accounts
+# cd accounts
+# unrar e ../accounts.rar
+# cd ..
