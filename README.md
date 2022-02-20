@@ -10,8 +10,8 @@
 ## Prerequisites
 - **[Gclone](https://github.com/donwa/gclone)** - Run the shell / batch script if you are on Linux to install, or add the gclone.exe file to your system PATH variables if you are on Windows. Putting the script in the same directory as GClone in Windows will work as well. If you are on MacOS, download the Darwin build of GClone.
 - **[AutoRClone](https://github.com/xyou365/autorclone) - (Service accounts folder)** - GClone requires service accounts. To generate and manage them, use AutoRClone. You can then configure GClone using the service accounts.
-- **[Git](https://git-scm.com/downloads)** - Install this program, and dont forget to add to PATH. [Docs](https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli)
-- **[Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli)** - Install the Heroku CLI and add to PATH. [Docs](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+- **[Git](https://git-scm.com/downloads)** - Install this program, and dont forget to add to PATH. [Docs](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+- **[Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli)** - Install the Heroku CLI and add to PATH. [Docs](https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli)
 
 ## Deploy to Heroku
 <!-- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) -->
