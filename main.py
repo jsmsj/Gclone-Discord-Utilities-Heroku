@@ -168,7 +168,7 @@ async def clone(ctx,source=None,name=None, destination=secrets.DEFAULT_DESTINATI
             butt1.style = discord.ButtonStyle.success
             await interaction.response.edit_message(content=f"{ctx.author.mention}",embed=em,view=view)
             des = d1.replace('"','')
-            await interaction.followup.send(f'```py\ngclone copy GC:"{des}/{name}" "C:\\Users\\USERNAME\\Desktop\\{name}" --progress\n```',ephemeral=True)
+            await interaction.followup.send(f'```py\ngclone copy GC:"{des}" "C:\\Users\\USERNAME\\Desktop\\{name}" --progress\n```',ephemeral=True)
     
     butt1.callback = butt1call
     butt2.callback = butt2call
