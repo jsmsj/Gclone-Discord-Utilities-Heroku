@@ -533,6 +533,16 @@ async def info(ctx):
 
     await ctx.send(embed=em)
 
+@bot.command()
+async def source(ctx):
+    em = discord.Embed(title="Source Code",description="You can also host the bot on Heroku",color=discord.Color.green())
+    em.add_field(name="Made By",value="jsmsj#5252\n(DMs Open for recommendations.)")
+    em.add_field(name="Version",value=secrets.VERSION)
+    em.add_field(name="Bot Repository for Self Hosting",value="[Gclone Discord Utilities](https://github.com/jsmsj/Gclone-Discord-Utilities)",inline=False)
+    em.add_field(name="Bot Repository for Heroku",value="[Gclone Discord Utilities Heroku](https://github.com/jsmsj/Gclone-Discord-Utilities-Heroku)",inline=False)
+
+    await ctx.send(embed=em)
+
 ##################################
 import asyncio
 @bot.command(name="bash")

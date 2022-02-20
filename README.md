@@ -45,7 +45,9 @@
 ---
 
 ## Video:
-Incase you find any difficulties, follow this [video tutorial](https://google.com)
+Incase you find any difficulties, follow this video tutorial
+### [Vimeo](https://vimeo.com/679652094)
+### [Youtube](https://youtu.be/BGeWSOGqxHE)
 
 
 **Enjoy using Gclone Discord Utilities Bot**
